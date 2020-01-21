@@ -6,6 +6,8 @@
 
 TARGET_BOOT_ANIMATION_RES := 2280
 
+EXTENDED_BUILD_TYPE := OFFICIAL
+
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/aosp/common.mk)
 

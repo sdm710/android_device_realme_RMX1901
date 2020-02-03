@@ -111,4 +111,6 @@
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
     <item name="config_screenAspectRatio" format="float" type="dimen">2.167</item>
 
+    <bool name="config_enableSmartPixels">true</bool>
+
 </resources>

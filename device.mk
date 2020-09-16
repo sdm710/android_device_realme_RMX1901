@@ -36,7 +36,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info_18041.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_18041.xml \
 
 # Camera Helper
-PRODUCT_PACKAGES += \
+#PRODUCT_PACKAGES += \
     RealmeCameraHelper
 
 # camera Motor

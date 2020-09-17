@@ -24,7 +24,7 @@ TARGET_KERNEL_CONFIG := RMX1901_defconfig
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Verified Boot
 BOARD_AVB_ENABLE := true

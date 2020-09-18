@@ -9,11 +9,14 @@ include device/realme/sdm710-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/realme/RMX1901
 
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := RMX1901,RMX1901CN
 
 # FOD
 TARGET_SURFACEFLINGER_FOD_LIB := //$(DEVICE_PATH):libfod_extension.RMX1901
+TARGET_USES_FOD_ZPOS := true
 
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml

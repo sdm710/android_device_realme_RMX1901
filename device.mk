@@ -31,7 +31,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+#PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
 # Audio
 PRODUCT_COPY_FILES += \

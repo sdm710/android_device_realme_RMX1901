@@ -6,6 +6,13 @@ vendor/etc/acdbdata/18041/General_cal.acdb
 vendor/etc/acdbdata/18041/Global_cal.acdb
 vendor/etc/acdbdata/18041/Bluetooth_cal.acdb
 vendor/etc/acdbdata/18041/Handset_cal.acdb
+vendor/etc/acdbdata/18539/Hdmi_cal.acdb
+vendor/etc/acdbdata/18539/Speaker_cal.acdb
+vendor/etc/acdbdata/18539/Headset_cal.acdb
+vendor/etc/acdbdata/18539/General_cal.acdb
+vendor/etc/acdbdata/18539/Global_cal.acdb
+vendor/etc/acdbdata/18539/Bluetooth_cal.acdb
+vendor/etc/acdbdata/18539/Handset_cal.acdb
 
 # ADSP
 vendor/bin/adsprpcd

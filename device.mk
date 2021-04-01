@@ -61,7 +61,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal
+    android.hardware.sensors@2.0-service.multihal_RMX1901
 
 # Inherit from proprietary version
 $(call inherit-product-if-exists, vendor/realme/RMX1901/RMX1901-vendor.mk)

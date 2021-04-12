@@ -40,10 +40,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     RealmeCameraHelper
 
-# camera Motor
-PRODUCT_PACKAGES += \
-    vendor.lineage.camera.motor@1.0-service.realme_sdm710
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \

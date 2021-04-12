@@ -1,0 +1,3 @@
+# Allow hal_sensors_default to read and write to motor sysfs nodes
+allow hal_sensors_default sysfs_motor:dir search;
+allow hal_sensors_default sysfs_motor:file rw_file_perms;

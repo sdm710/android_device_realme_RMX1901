@@ -462,8 +462,6 @@ vendor/lib/sensors.ssc.so
 odm/lib/oplus.sensors.ssc.so
 vendor/lib64/sensors.ssc.so
 odm/lib64/oplus.sensors.ssc.so
-vendor/lib/android.hardware.sensors@2.0-ScopedWakelock.so
-vendor/lib64/android.hardware.sensors@2.0-ScopedWakelock.so
 vendor/etc/sensors/config/bmi26x_0.json
 vendor/etc/sensors/config/sdm710_stk3x3x_0.json
 vendor/etc/sensors/config/sdm710_tsl2540_0.json

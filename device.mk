@@ -32,8 +32,9 @@ $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/mixer_paths_18041.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_18041.xml \
-    $(LOCAL_PATH)/audio/audio_platform_info_18041.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_18041.xml \
+    $(LOCAL_PATH)/audio/mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths.xml \
+    $(LOCAL_PATH)/audio/mixer_paths_i2s.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_i2s.xml \
+    $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml
 
 # Camera Helper
 PRODUCT_PACKAGES += \
@@ -46,7 +47,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
-    vendor.oppo.hardware.biometrics.fingerprint@2.1
+    vendor.oplus.hardware.biometrics.fingerprint@2.1
 
 #PRODUCT_COPY_FILES += \
     vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml

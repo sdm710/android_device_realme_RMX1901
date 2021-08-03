@@ -4,21 +4,18 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-TARGET_BOOT_ANIMATION_RES := 2280
-
-EXTRA_FOD_ANIMATIONS := true
-
-WITH_CORE_GAPPS := true
-
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common Conquer stuff
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_USE_GAPPS := true
+$(call inherit-product, vendor/conquer/config/common.mk)
 
 # Inherit from RMX1901 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1901
-PRODUCT_NAME := aosp_RMX1901
+PRODUCT_NAME := conquer_RMX1901
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme X
 PRODUCT_MANUFACTURER := Realme

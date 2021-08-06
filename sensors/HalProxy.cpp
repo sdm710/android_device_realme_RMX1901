@@ -484,7 +484,7 @@ void HalProxy::initializeSensorList() {
                         sensor.type = SensorType::LIGHT;
                         sensor.typeAsString = "";
                     }
-                    if (sensor.typeAsString == "qti.sensor.proximity_fake") {
+                    if (sensor.typeAsString == "android.sensor.tp_proximity") {
                         sensor.type = SensorType::PROXIMITY;
                         sensor.typeAsString = "";
                     }

@@ -4,18 +4,17 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common Conquer stuff
+# Inherit some common P-404 stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_USE_GAPPS := true
-$(call inherit-product, vendor/conquer/config/common.mk)
+$(call inherit-product, vendor/404/configs/common.mk)
 
 # Inherit from RMX1901 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1901
-PRODUCT_NAME := conquer_RMX1901
+PRODUCT_NAME := p404_RMX1901
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme X
 PRODUCT_MANUFACTURER := Realme

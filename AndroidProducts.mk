@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/conquer_RMX1901.mk
+    $(LOCAL_DIR)/p404_RMX1901.mk
 
 COMMON_LUNCH_CHOICES := \
-    conquer_RMX1901-userdebug \
-    conquer_RMX1901-user \
-    conquer_RMX1901-eng
+    p404_RMX1901-userdebug \
+    p404_RMX1901-user \
+    p404_RMX1901-eng

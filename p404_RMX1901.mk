@@ -8,6 +8,8 @@
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 $(call inherit-product, vendor/404/configs/common.mk)
+$(call inherit-product-if-exists, vendor/google/gms/config.mk)
+$(call inherit-product-if-exists, vendor/google/pixel/config.mk)
 
 # Inherit from RMX1901 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
